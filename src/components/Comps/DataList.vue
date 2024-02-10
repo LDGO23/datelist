@@ -5,21 +5,28 @@
       </ul>
     </div>
   </template>
-<script setup lang="ts">
-import ComponentData from '@/data/ComponetData';
-import DataItem from '@/components/Comps/DataItem.vue'
-</script>
-
-<style scoped>
- .data {
-  display: flex;
-  justify-content: center;
   
-}
+  <script setup lang="ts">
+  import ComponentData from '@/data/ComponetData';
+  import DataItem from '@/components/Comps/DataItem.vue'
+  </script>
+  
+  <style scoped>
+  .data {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .data-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 20px; 
+  }
+  
 
-.data-list {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); 
-  gap: 20px; 
-}
-</style>
+  .data-list .data-item {
+    margin: 10px;
+  }
+  </style>
+  
