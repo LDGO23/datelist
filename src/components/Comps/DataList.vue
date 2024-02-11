@@ -48,8 +48,25 @@ const openModal = () => {
 const closeModal = () => {
   showmodal.value = false;
 };
+const saveData = () => {
+  // Validar datos y agregar a la lista
 
 
+    const lastId = ComponentData.length > 0 ? ComponentData[ComponentData.length - 1].id : 0;
+
+    // Agregar a la lista con un nuevo ID y los datos ingresados
+    ComponentData.push({
+      id: lastId + 1,
+      name: name.value,
+      song: song.value,
+      album: album.value,
+      phrase: phrase.value,
+    });
+
+    // Cerrar el modal
+    closeModal();
+ 
+}
   </script>
   
   <style scoped>
