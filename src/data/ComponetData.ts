@@ -41,14 +41,14 @@ const ComponentData: DataList[] = [
     name: "Junior H",
     song: "Días Numerados",
     album: "542",
-    phrase: "Siento mucho despedirme\nTu buscamas no sé dime\nAlguien más rogón,\nNuestra historia\nya es historia y me gusto\ny me gusto",
+    phrase: "'Siento mucho despedirme\nTu buscamas no sé dime\nAlguien más rogón,\nNuestra historia\nya es historia y me gusto\ny me gusto'",
   },
   {
     id: 7,
     name: "Natanael Cano",
     song: "Amor Tumbado",
     album: "Mi Nuevo Yo",
-    phrase: "Tú me tenías y lo sabías",
+    phrase: "'Tú me tenías y lo sabías'",
   },
   {
     id: 8,

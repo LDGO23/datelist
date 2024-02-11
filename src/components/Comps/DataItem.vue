@@ -2,12 +2,12 @@
     <div class="data-item" :style="{ color: textColor, backgroundColor: bgColor }">
       <div class="content">
         <h1 class="artist">{{ props.name }}</h1>
-        <h4 class="tite">Cancion:</h4>
-        <h3 class="song">{{ props.song }}</h3>
-        <h4 class="tite">Album;</h4>
-        <h4 class="album">{{ props.album }}</h4>
-        <h4 class="tite">Frase:</h4>
-        <p class="phrase">{{ props.phrase }}</p>
+        <h4>Cancion:</h4>
+        <h3>{{ props.song }}</h3>
+        <h4>Album;</h4>
+        <h4>{{ props.album }}</h4>
+        <h4>Frase:</h4>
+        <p>{{ props.phrase }}</p>
         <div class="buttons">
           <button @click="color">Color texto</button>
           <button @click="backgroudcolor">Color de fodo</button>
